@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.unosquare.PostLogin">
+        <methods>
+          <include name="testGet1"/>
+          <include name="testGet3"/>
+          <include name="testPost2"/>
+          <include name="beforeSuite"/>
+          <include name="testPost4"/>
+          <include name="testGet2"/>
+          <include name="testPost1"/>
+          <include name="testGet4"/>
+          <include name="testPost3"/>
+          <include name="testPut"/>
+        </methods>
+      </class> <!-- com.unosquare.PostLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
