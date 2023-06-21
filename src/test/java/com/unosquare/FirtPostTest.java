@@ -21,7 +21,7 @@ import static org.hamcrest.core.IsEqual.*;
 
 
 
-public class FirtPost {
+public class FirtPostTest {
   @Test
   public void f() {
 	  

@@ -22,7 +22,8 @@ public class WriteJSON {
 		
 		obj.put("Messages"	, list);
 		
-		try(FileWriter file = new FileWriter("C:\\Users\\fabian.sanchez\\eclipse-workspace\\JavaAPI\\test-output\\JsonFiles\\writeJSON.json")){
+		try{
+			FileWriter file = new FileWriter("C:\\Users\\fabian.sanchez\\eclipse-workspace\\JavaAPI\\test-output\\JsonFiles\\writeJSON.json");
 			file.write(obj.toJSONString());
 		}catch (IOException e) {
 			e.printStackTrace();

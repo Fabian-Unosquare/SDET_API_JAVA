@@ -17,7 +17,7 @@ import org.json.simple.JSONObject;
 import com.unosquare.*;
 
 
-public class PostLogin extends ApiCore {
+public class PostLoginTest extends ApiCore {
 
 	ApiCore apicore = null;
 	public String endPoint = "/users/";

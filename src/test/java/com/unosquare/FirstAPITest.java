@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class FirstAPITest {
   @Test
-  public void f() {
+  public void firstAPITest() {
 	  
 	  RestAssured.baseURI = "https://reqres.in/api/";
 	  RequestSpecification httpRequest = RestAssured.given();

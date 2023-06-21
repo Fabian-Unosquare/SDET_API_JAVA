@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.core.IsEqual.*;
 
 
-public class APITestFirstPullURL2_2 {
+public class APIFirstPullURL2_2Test {
   @Test
   public void f() {
 	  

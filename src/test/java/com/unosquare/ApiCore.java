@@ -11,7 +11,6 @@ import org.json.simple.parser.JSONParser;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.http.HttpRequest;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

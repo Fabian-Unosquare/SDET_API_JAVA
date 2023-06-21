@@ -18,7 +18,9 @@ public class ReadJSON {
 		
 		JSONParser parser = new JSONParser();
 		
-		try (Reader reader = new FileReader("C:\\\\Users\\\\fabian.sanchez\\\\eclipse-workspace\\\\JavaAPI\\\\test-output\\\\JsonFiles\\\\writeJSON.json")){
+		try {
+			
+			Reader reader = new FileReader("C:\\\\Users\\\\fabian.sanchez\\\\eclipse-workspace\\\\JavaAPI\\\\test-output\\\\JsonFiles\\\\writeJSON.json");
 			
 			JSONObject jsonObject = (JSONObject) parser.parse(reader);
 			System.out.println(jsonObject);

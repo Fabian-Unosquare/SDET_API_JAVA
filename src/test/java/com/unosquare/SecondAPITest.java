@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.*;
 
 public class SecondAPITest {
   @Test
-  public void f() {
+  public void secondAPITest() {
 	  
 	  given()
 	  .when()

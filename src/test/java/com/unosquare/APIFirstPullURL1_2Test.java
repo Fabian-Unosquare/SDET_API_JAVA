@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.core.IsEqual.*;
 
-public class APITestFirstPullURL1_2 {
+public class APIFirstPullURL1_2Test {
   @Test
   public void f() {
 	  
